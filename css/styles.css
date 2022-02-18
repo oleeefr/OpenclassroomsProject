@@ -215,6 +215,10 @@ main section h1 {
 	margin-left: 10px;
 }
 
+.filtre {
+	display: none;
+}
+
 .star {
     color: #0065FC;
     padding-top: 6.5px;
