@@ -1,8 +1,4 @@
-/*
-css landing page booki
-
-
-*/
+/* css landing page booki */
 
 /* mode ecran ORDINATEUR par défaut >= 992px */
 
@@ -454,7 +450,7 @@ footer ul {
 	}
 }
 
-/* mode ecran MOBILE  < 768px */
+/* mode ecran MOBILE  <768px */
 @media screen and (max-width:768px) {
 
 	/* mise en page général */
