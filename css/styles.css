@@ -345,6 +345,8 @@ main section h1 {
 
 #listing-activites div {
 	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
 }
 
 .bloc-articles-activites {
