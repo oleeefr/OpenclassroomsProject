@@ -104,6 +104,7 @@ main section h1 {
     font-size: 1rem;
     cursor: pointer;
     font-weight: bold;
+	height:45px;
 }
 
 .bouton-recherche p {
