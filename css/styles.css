@@ -5,7 +5,7 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	width : 100%;
-	margin: 30px 30px 0 30px;
+	margin: 0px 30px 0 30px;
 
 	max-width: 1450px;
 }
@@ -26,9 +26,15 @@ nav ul {
 	list-style: none;
 }
 
+nav li {
+	padding: 42px 30px 0 30px;
+}
+
 nav li a {
 	font-size: 20px;
 	font-weight: 700;
+	padding: 0px 30px 10px 30px;
+	text-decoration: none;
 }
 
 .activelink {
@@ -38,16 +44,9 @@ nav li a {
 
 .activelink:hover,
 .selectlink {
-	border-top: 3px solid #0065FC;	
+	border-top: 5px solid #0065FC;	
 	color: #0065FC;    
 }
-
-.link {
-	padding: 45px 30px 0 30px;
-	text-decoration: none;
-    border-bottom: none;
-}
-
 
 /* conteneur de la landing Page */
 main {
@@ -481,6 +480,16 @@ footer ul {
 	header nav ul {
 		padding-left: 0px;
 		width: 100%;
+	}
+
+	header nav ul li {
+		width: 100%;
+	}
+
+	header nav ul li a {
+		text-align: center;
+		display: block;
+
 	}
 	
 	header img {
