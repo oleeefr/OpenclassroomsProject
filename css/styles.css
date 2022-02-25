@@ -346,7 +346,7 @@ main section h1 {
 
 #listing-activites div {
 	display:flex;
-	flex-wrap: wrap;
+	 flex-wrap: wrap;
 	justify-content:space-around;
 }
 
@@ -470,11 +470,6 @@ footer ul {
 		display: flex;
 		flex-direction: column;
 	}
-
-	/* switch du bloc activités à marseille */
-	.mode-display {
-		display: none;
-	}
 }
 
 /* mode ecran MOBILE  <768px */
@@ -571,14 +566,23 @@ footer ul {
 		margin-bottom: 5%;
 	}
 
-	.article-hebergement {
+	.article-hebergement,
+	.bloc-articles-activites {
 		margin: 5px 5px 10px;
 		width: 368px;
 	}
 
-	/* switch du bloc activités à marseille */
-	.mode-display {
-		display: none;
+	/*mise en page du listing Activités */
+	#listing-activites {
+		margin-left: 30px;
+	}
+
+	.image-portrait-activites {
+		width:310px;
+		height: 200px;
+		border-top-right-radius: 15px;
+		border-top-left-radius: 15px;
+		object-fit: cover;
 	}
 
 	footer {
